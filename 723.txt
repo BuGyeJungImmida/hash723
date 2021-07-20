@@ -1,0 +1,33 @@
+7월 23일 활동 안내
+
+hash function을 구현해서 *학번*.py파일을 *학번* 브랜치에 push 해주세요
+
+예시)
+mkdir 21112
+cd 21112                             <-여기에 21112.py 작성
+git init
+git add .
+git commit -m "21112"
+git remote add origin "*링크*"
+git branch 21112
+git push origin 21112                <-참고로 최상위 브랜치는 master 입니다 *학번*브랜치를 새로 파서 거기다가 push 해주세요
+(예시 끝)
+
+
+
+
+
+[hash function에 대한 설명][또는 스펙]
+
+문자열을 입력받아서 hash값을 문자열로 반환하는 함수를 만들어주세요
+hash를 만들어내는 방식은 어떤 방식도 괜찮습니다
+다음의 조건을 만족하면 됩니다
+
+1   하나의 값을 넣으면 하나의 hash를 반환합니다 일대일 함수를 떠올리세요
+2   반환된 hash를 가지고 입력값을 추측할 수 없는 알고리즘을 작성하셔야 합니다
+3   hash collision이 일어나지 않도록 주의하세요
+3.1 다시말해 서로 다른 입력값은 서로 다른 hash를 가져야 합니다
+
+_암호화, authentication에 사용될 것이기 때문에 읽기 힘들고 복잡한 hash가 적합합니다
+
+코드 형식이나 다른 궁금한점은 yourcodehere.py를 참고하시거나 저한테 물어봐주세요
